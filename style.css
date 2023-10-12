@@ -38,8 +38,22 @@ header{
     background-color: #E55473;
     border-radius: 8px;
 }
-figure img{
+.img_1{
     background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 8px 8px;
+    height: 200px;
+    width: 200px;
+    padding: 50px 20px 0px 20px;
+}
+.img_2{
+    background-color: rgba(5, 151, 160, 0.15);    
+    border-radius: 300px 300px 8px 8px;
+    height: 200px;
+    width: 200px;
+    padding: 50px 20px 0px 20px;
+}
+.img_3{
+    background-color: rgba(71, 125, 17, 0.15);    
     border-radius: 300px 300px 8px 8px;
     height: 200px;
     width: 200px;
@@ -80,5 +94,118 @@ figcaption{
 
 }
 .optional div{
+    text-align: center;
+}
+
+
+.hot-deal{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.hot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 75%;
+    margin: auto;
+}
+.hot-title{
+    text-align: center;
+    max-width: 50%;
+}
+.red{
+    color: #E55473;
+}
+.hot-title h1{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+.hot-title p{
+    margin: 15px 0px;
+}
+
+.insta h1{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.insta p{
+    margin-top: 15px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.insta-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+
+}
+.insta-image img{
+    height: 350px;
+    width: 300px;
+    margin-left: 10px;
+}
+.instagram{
+    margin-bottom: 100px;
+}
+
+.latest-deal{
+    max-width: 80%;
+    margin: auto;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    padding: 80px;
+}
+.latest h1{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.latest p{
+    margin: 15px 0px;
+    text-align: center;
+}
+.sub{
+    text-align: center;
+}
+input[type="email"]{
+    border: none;
+    border-radius: 3px;
+    padding: 18px 25px 18px 5px;
+    width: 50%;
+}
+input[type="button"]{
+    color: white;
+    font-weight: 700;
+    padding: 18px 35px;
+    border: none;
+    background-color: #E55473;
+    border-radius: 8px;
+}
+
+.foot{
+    margin-top: 100px;
+    background-color: #111010;
+    padding: 100px 0px;
+}
+.foot-title h1{
+    color: #FFF;
+}
+.foot-para{
+    color: white;
+    margin: 15px 0px 30px 0px;
+    
+}
+.last{
+    color: rgba(255, 255, 255, 0.40);
+}
+.foot-title{
     text-align: center;
 }
